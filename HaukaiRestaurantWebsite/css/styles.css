@@ -1,0 +1,167 @@
+/* Homepage and generic styles */
+
+h1, h2 {
+    margin: 20px;
+    padding-left: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+main {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+main {
+    background-color:#FFFCF8;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.description {
+    margin: 10px;
+    font-size: 14px !important;
+    margin-bottom: 20px;
+}
+
+.main-image {
+    max-width: 100%;
+}
+
+.secondary-image {
+    max-width: 100%;
+}
+
+.image-highlight:hover {
+    border: 1px solid gray;
+    filter: brightness(130%);
+    -webkit-filter: brightness(130%);
+    -moz-filter: brightness(130%);
+    -o-filter: brightness(130%);
+    -ms-filter: brightness(130%);
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #343A40;
+}
+
+footer h4 {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+footer a {
+    color: #adb1b5;
+}
+
+footer a:hover {
+    color: #dee2e6;
+    text-decoration: none;
+}
+
+footer p {
+    color: #adb1b5;
+    font-style: bold;
+    font-size: 16px;
+}
+
+footer .row {
+    margin-inline-start: 5%;
+}
+
+/* Contact Page */
+
+.contact-method {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    position: relative;
+    margin-left: 20%;
+}
+
+/* Privacy*/
+
+.privacy {
+    padding-right: 300px;
+}
+
+/* Menu */
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-content {
+    margin-top: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px !important;
+    }
+
+    h4 {
+        font-size: 14px !important;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .main-image {
+        padding-left: 14px;
+        padding-right: 15px;
+        padding-bottom: 6px;
+    }
+
+    .img-bottom {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    footer p {
+        font-size: 8px !important;
+    }
+
+    .img-row2 {
+    display: none;}
+}
+
+@media (min-width: 601px) {
+    .img-bottom {
+        margin-top: 8px;
+    }
+}
